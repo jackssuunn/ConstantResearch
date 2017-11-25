@@ -2,6 +2,7 @@
 #define RESEARCHWINDOW_H
 
 #include <QtGui/QMainWindow>
+#include <QHBoxLayout>
 #include "ui_ResearchWindow.h"
 
 class ResearchWindow : public QMainWindow

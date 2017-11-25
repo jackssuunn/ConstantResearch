@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ResearchWindow.ui'
 **
-** Created: Sat Nov 25 19:17:03 2017
+** Created: Sat Nov 25 19:51:15 2017
 **      by: Qt User Interface Compiler version 4.7.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

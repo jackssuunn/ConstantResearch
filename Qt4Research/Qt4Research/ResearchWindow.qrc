@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="ResearchWindow">
+    <qresource prefix="/ResearchWindow">
+        <file>Resources/bubbles.svg</file>
+        <file>Resources/designer.png</file>
     </qresource>
 </RCC>
