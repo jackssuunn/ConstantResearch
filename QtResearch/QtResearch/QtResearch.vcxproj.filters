@@ -33,6 +33,12 @@
       <Extensions>qrc;*</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
+    <Filter Include="头文件\OpenGL">
+      <UniqueIdentifier>{bae13cba-1601-44ae-988b-afbbad59fc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OpenGL">
+      <UniqueIdentifier>{f49f06b8-0b52-4214-8582-ed4bf02ae652}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,6 +56,18 @@
     <ClCompile Include="GeneratedFiles\qrc_ResearchWindow.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="HelloGlWidget.cpp">
+      <Filter>头文件\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HelloGlWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HelloGlWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtlogo.cpp">
+      <Filter>头文件\OpenGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ResearchWindow.h">
@@ -64,5 +82,13 @@
     <CustomBuild Include="GeneratedFiles\ui_ResearchWindow.h">
       <Filter>Generated Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="HelloGlWidget.h">
+      <Filter>头文件\OpenGL</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="qtlogo.h">
+      <Filter>头文件\OpenGL</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
